@@ -1,4 +1,16 @@
 aid: newnew
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newnew.png
 name: NewNew
 description: NewNew is a company surfaced as a portfolio company of a16z and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 apis: []
@@ -20,3 +32,15 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: >-
+    Defunct consumer app (a16z-backed creator-economy "control someone's life"
+    polling app). No live site or API surface: newnew.co is NXDOMAIN, newnew.io
+    redirects to a GoDaddy for-sale page, and newnew.com is an unrelated parked
+    frameset. No developer portal, docs, OpenAPI, packages, or well-known
+    surface exists to search, derive, or probe. Nothing to enrich; no
+    fabrication.
